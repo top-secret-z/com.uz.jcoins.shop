@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
+	<import>
+		<!-- Category -->
+		<type>
+			<name>com.uz.jcoins.shop.category</name>
+			<definitionname>com.woltlab.wcf.category</definitionname>
+			<classname>wcf\system\category\JCoinsShopCategoryType</classname>
+			<defaultpermission>1</defaultpermission>
+		</type>
+		
+		<!-- ACL -->
+		<type>
+			<name>com.uz.jcoins.shop.category</name>
+			<definitionname>com.woltlab.wcf.acl</definitionname>
+		</type>
+		
+		<!-- box controllers -->
+		<type>
+			<name>com.uz.jcoins.shop.newest</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\JCoinsShopNewestProductBoxController</classname>
+		</type>
+		<type>
+			<name>com.uz.jcoins.shop.top</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\JCoinsShopTopProductBoxController</classname>
+		</type>
+		
+		<!--  conditions -->
+		<type>
+			<name>com.uz.jcoins.shop</name>
+			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsProducts</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.jcoins.shop</name>
+			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsProducts</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.jcoins.shop</name>
+			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsProducts</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.jcoins.shop</name>
+			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsProducts</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.jcoins.shop</name>
+			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsProducts</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- recent activity -->
+		<type>
+			<name>com.uz.jcoins.shop.recentActivityEvent.purchase</name>
+			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+			<classname>wcf\system\user\activity\event\JCoinsShopUserActivityEvent</classname>
+		</type>
+		
+		<!-- text -->
+		<type>
+			<name>com.uz.jcoins.shop.content</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		
+		<!-- JCoins -->
+		<type>
+			<name>com.uz.jcoins.shop.statement.product</name>
+			<definitionname>de.wcflabs.jcoins.statement.object</definitionname>
+			<editable>0</editable>
+			<classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
+			<category>de.wcflabs.jcoins.wcf</category>
+		</type>
+		
+		<!-- condition -->
+		<type>
+			<name>com.uz.jcoins.shop.condition.userGroup</name>
+			<definitionname>com.uz.jcoins.shop.condition</definitionname>
+			<classname>wcf\system\condition\UserGroupCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>general</conditiongroup>
+			<includeguests>0</includeguests>
+		</type>
+		
+		<!-- stat handlers -->
+		<type>
+			<name>com.uz.jcoins.shop.stats</name>
+			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+			<classname>wcf\system\stat\JCoinsShopStatDailyHandler</classname>
+			<categoryname>com.woltlab.wcf.general</categoryname>
+		</type>
+	</import>
+</data>

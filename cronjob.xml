@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
+	<import>
+		<cronjob name="com.uz.jcoins.shop.expiration">
+			<classname>wcf\system\cronjob\JCoinsShopMembershipCronjob</classname>
+			<description>JCoins Shop Memberships</description>
+			<description language="de">JCoins-Shop Mitgliedschaften</description>
+			<startminute>*/15</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+		</cronjob>
+		
+		<cronjob name="com.uz.jcoins.shop.expiration.group">
+			<classname>wcf\system\cronjob\JCoinsShopMembershipGroupCronjob</classname>
+			<description>JCoins Shop Memberships II</description>
+			<description language="de">JCoins-Shop Mitgliedschaften II</description>
+			<startminute>*/15</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+		</cronjob>
+		
+		<cronjob name="com.uz.jcoins.shop.disable">
+			<classname>wcf\system\cronjob\JCoinsShopDisableCronjob</classname>
+			<description>JCoins Shop Disable Products</description>
+			<description language="de">JCoins-Shop Produkt-Deaktivierung</description>
+			<startminute>*/10</startminute>
+			<starthour>*</starthour>
+			<startdom>*</startdom>
+			<startmonth>*</startmonth>
+			<startdow>*</startdow>
+			<canbeedited>1</canbeedited>
+			<canbedisabled>1</canbedisabled>
+		</cronjob>
+	</import>
+</data>

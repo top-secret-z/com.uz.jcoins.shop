@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
+	<import>
+		<page identifier="com.uz.jcoins.JCoinsShop">
+			<pageType>system</pageType>
+			<controller>wcf\page\JCoinsShopPage</controller>
+			<name language="de">Shop</name>
+			<name language="en">Shop</name>
+			<permissions>user.jcoins.canShop,user.jcoins.canSeeShop</permissions>
+			<options>module_jcoins_shop</options>
+			
+			<content language="en">
+				<title>Shop</title>
+			</content>
+			<content language="de">
+				<title>Shop</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.jcoins.JCoinsShopUserItemList">
+			<pageType>system</pageType>
+			<controller>wcf\page\JCoinsShopUserItemListPage</controller>
+			<name language="de">Gekaufte Shop-Produkte</name>
+			<name language="en">Purchased Shop Products</name>
+			<options>module_paid_subscription</options>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.woltlab.wcf.AccountManagement</parent>
+			
+			<content language="en">
+				<title>Purchased Shop Products</title>
+			</content>
+			<content language="de">
+				<title>Gekaufte Shop-Produkte</title>
+			</content>
+		</page>
+	</import>
+</data>

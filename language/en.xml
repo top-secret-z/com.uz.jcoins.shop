@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en">
+	<category name="wcf.acl.option">
+		<item name="wcf.acl.option.com.uz.jcoins.shop.category.canViewCategory"><![CDATA[Can view category]]></item>
+		<item name="wcf.acl.option.com.uz.jcoins.shop.category.canUseCategory"><![CDATA[Can buy products of this category]]></item>
+	</category>
+	
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.jcoins.shop.newest"><![CDATA[Newest JCoins Shop products]]></item>
+		<item name="wcf.acp.box.boxController.com.uz.jcoins.shop.top"><![CDATA[Most purchased JCoins Shop products]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.shopJCoins.canManage"><![CDATA[Can manage JCoins Shop]]></item>
+		<item name="wcf.acp.group.option.user.jcoins.canSeeShop"><![CDATA[Can see JCoins Shop]]></item>
+		<item name="wcf.acp.group.option.user.jcoins.canShop"><![CDATA[Can purchase in JCoins Shop]]></item>
+	</category>
+	
+	<category name="jcoins.shop.category">
+		<item name="jcoins.shop.category.delete.sure"><![CDATA[Do you really want to delete this category? All child categories of this category will be moved to this category’s parent category. Products which are only in this category will be deleted.]]></item>
+	</category>
+	
+	<category name="wcf.acp.jcoinsShop">
+		<item name="wcf.acp.jcoinsShop.item.add"><![CDATA[Add Product]]></item>
+		<item name="wcf.acp.jcoinsShop.item.autoDisable"><![CDATA[Automatically disable]]></item>
+		<item name="wcf.acp.jcoinsShop.item.autoDisable.description"><![CDATA[The product is automatically deactivated when the product limit or the end of the validity is reached.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.autoDisable.label"><![CDATA[Deactivation]]></item>
+		<item name="wcf.acp.jcoinsShop.item.buyLimit"><![CDATA[Purchase Limit]]></item>
+		<item name="wcf.acp.jcoinsShop.item.buyLimit.description"><![CDATA[Enter here how often a user may purchase this product. Enter “0” to not define a limit.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.categories"><![CDATA[Categories]]></item>
+		<item name="wcf.acp.jcoinsShop.item.conditions"><![CDATA[Conditions]]></item>
+		<item name="wcf.acp.jcoinsShop.item.content"><![CDATA[Text]]></item>
+		<item name="wcf.acp.jcoinsShop.item.copy"><![CDATA[Copy Product]]></item>
+		<item name="wcf.acp.jcoinsShop.item.copy.confirm"><![CDATA[Do you really want to copy this product? The newly created product will be opened for editing automatically.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.delete.sure"><![CDATA[Do you really want to delete this product?]]></item>
+		<item name="wcf.acp.jcoinsShop.item.detail"><![CDATA[Detail]]></item>
+		<item name="wcf.acp.jcoinsShop.item.download"><![CDATA[File]]></item>
+		<item name="wcf.acp.jcoinsShop.item.edit"><![CDATA[Edit Product]]></item>
+		<item name="wcf.acp.jcoinsShop.item.earnings"><![CDATA[Earnings]]></item>
+		<item name="wcf.acp.jcoinsShop.item.expirationDate"><![CDATA[Valid until]]></item>
+		<item name="wcf.acp.jcoinsShop.item.expirationDate.error.invalid"><![CDATA[The date is invalid; it must lie in the future.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.expirationStatus"><![CDATA[Validity]]></item>
+		<item name="wcf.acp.jcoinsShop.item.expirationStatus.no"><![CDATA[Permanent]]></item>
+		<item name="wcf.acp.jcoinsShop.item.expirationStatus.yes"><![CDATA[Limited]]></item>
+		<item name="wcf.acp.jcoinsShop.item.filename"><![CDATA[Filename]]></item>
+		<item name="wcf.acp.jcoinsShop.item.filename.description"><![CDATA[Enter the name of an already uploaded file here. This field must be emtpy to upload a new file.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.filename.error.notExists"><![CDATA[A file with this name couldn’t be found.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.fileUpload"><![CDATA[Upload File]]></item>
+		<item name="wcf.acp.jcoinsShop.item.fileUpload.description"><![CDATA[Upload the desired file here. The field “Filename” must be empty.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.fileUpload.error.exists"><![CDATA[The file already exists.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.fileUpload.error.uploadFailed"><![CDATA[An error occured during upload.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.general"><![CDATA[General]]></item>
+		<item name="wcf.acp.jcoinsShop.item.general.description"><![CDATA[General settings of this product.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.handson"><![CDATA[Manual Product]]></item>
+		<item name="wcf.acp.jcoinsShop.item.handson.names"><![CDATA[Responsible User(s)]]></item>
+		<item name="wcf.acp.jcoinsShop.item.handson.names.description"><![CDATA[Enter the name of the user being responsible for this product. This user will be notified when the file is purchased. If required, multiple username can be entered (separated by commas).]]></item>
+		<item name="wcf.acp.jcoinsShop.item.handson.names.error.notConfigured"><![CDATA[At least one responsible user must be entered.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.handson.names.error.tooMany"><![CDATA[You may only enter a maximum of 20 users.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.image"><![CDATA[Product Image]]></item>
+		<item name="wcf.acp.jcoinsShop.item.image.description"><![CDATA[The product image should have a size of at least 144 x 144 px.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.isDisabled"><![CDATA[Disable product]]></item>
+		<item name="wcf.acp.jcoinsShop.item.isOffer"><![CDATA[Make product an offer]]></item>
+		<item name="wcf.acp.jcoinsShop.item.isOffer.description"><![CDATA[You can make the product an offer to sell it for a lesser price and a limited period of time.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.leaveConversation"><![CDATA[Leave conversation automatically]]></item>
+		<item name="wcf.acp.jcoinsShop.item.limits"><![CDATA[Limits]]></item>
+		<item name="wcf.acp.jcoinsShop.item.list"><![CDATA[Products]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership"><![CDATA[Membership]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.already"><![CDATA[Already member]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.change"><![CDATA[Changing the settings doesn’t affect users who already have purchased the product. It is not recommended to change the user group.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.days"><![CDATA[Duration]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.days.description"><![CDATA[Duration of the memberschip in days.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.days.error.invalid"><![CDATA[The value is invalid. It must be positive and less than 6000.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.groupID"><![CDATA[User group]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.groupID.error.invalidSelection"><![CDATA[An invalid user group was choosen.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.warn"><![CDATA[Warn prior Expiration]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.warn.description"><![CDATA[Users will be warned the entered number of days before the expiration of the membership. Enter “0” to not warn the users.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.membership.warn.error.moreThanDays"><![CDATA[The entered number of days must be smaller than the duration of the membership.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.offerEnd"><![CDATA[End of Offer]]></item>
+		<item name="wcf.acp.jcoinsShop.item.offerEnd.error.invalid"><![CDATA[The date is invalid; it must lie in the future.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.offerPrice"><![CDATA[Offer Price]]></item>
+		<item name="wcf.acp.jcoinsShop.item.price"><![CDATA[Price]]></item>
+		<item name="wcf.acp.jcoinsShop.item.price.description"><![CDATA[Product price in JCoins]]></item>
+		<item name="wcf.acp.jcoinsShop.item.productLimit"><![CDATA[Product Limit]]></item>
+		<item name="wcf.acp.jcoinsShop.item.productLimit.description"><![CDATA[Enter here, how many times this product may be purchased. Enter “0” to not define a limit.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sales"><![CDATA[Sales]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sender"><![CDATA[Author of the Conversation]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sender.description"><![CDATA[Name of the user who is used as the author of automatically generated conversations.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sender.error.invalid"><![CDATA[The user doesn’t exist.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sender.error.required"><![CDATA[You must enter a valid username.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sender.error.tooLong"><![CDATA[The length of the username is limited to 255 characters.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.showStartPage"><![CDATA[Show on Shop start page]]></item>
+		<item name="wcf.acp.jcoinsShop.item.showStartPage.description"><![CDATA[If deselected, the product will be shown only, if a category is selected to which the product is assigned.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sortOrder"><![CDATA[Sort Order]]></item>
+		<item name="wcf.acp.jcoinsShop.item.sortOrder.description"><![CDATA[Defines the order in which products will be shown in the shop.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.subject"><![CDATA[Title]]></item>
+		<item name="wcf.acp.jcoinsShop.item.title"><![CDATA[Title]]></item>
+		<item name="wcf.acp.jcoinsShop.item.title.description"><![CDATA[Short title for use in the ACP. A maximum of 80 characters is allowed.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.title.error.required"><![CDATA[You must enter a title.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.title.error.tooLong"><![CDATA[The length of the title is limited to 80 characters.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.teaser"><![CDATA[Teaser]]></item>
+		<item name="wcf.acp.jcoinsShop.item.text"><![CDATA[Description]]></item>
+		<item name="wcf.acp.jcoinsShop.item.textItem"><![CDATA[Text Product]]></item>
+		<item name="wcf.acp.jcoinsShop.item.textItem.description"><![CDATA[Enter the texts using the scheme “x:Text”. “x” determines how often the text can be used. “:” separates number and text; don’t use spaces left of “:”. Only one combination of number and text is allowed per line.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.textItem.error.invalid"><![CDATA[You entered an invalid combination of number and text.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.textItem.error.tooLong"><![CDATA[At least one text is too long. A maximum of 255 characters is allowed.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.textItemAutoLimit"><![CDATA[Automatically set product limit]]></item>
+		<item name="wcf.acp.jcoinsShop.item.textItemAutoLimit.description"><![CDATA[Sets the product limit in tab “Limits” automatically in accordance with the total number of available texts. This allows for displaying in the product description how often the text product can be purchased.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.trophy"><![CDATA[Trophy]]></item>
+		<item name="wcf.acp.jcoinsShop.item.trophy.description"><![CDATA[Only trophies that are activated and not automatically awarded can be selected.<br>When purchasing a trophy, depending on the configuration of JCoins earnings, JCoins will be awarded at the same time for obtaining the trophy.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.trophyID.error.invalid"><![CDATA[You must select an existing trophy.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.type"><![CDATA[Product Type]]></item>
+		<item name="wcf.acp.jcoinsShop.item.type.description"><![CDATA[Choose the type of product you want to sell.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.typeID"><![CDATA[Product Type]]></item>
+		<item name="wcf.acp.jcoinsShop.item.typeID.error.missing"><![CDATA[You must select a product type.]]></item>
+		<item name="wcf.acp.jcoinsShop.item.typeDes"><![CDATA[Product Type]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.endDate"><![CDATA[End]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.groupName"><![CDATA[User Group]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.isActive"><![CDATA[Active]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.isActive.no"><![CDATA[no]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.isActive.yes"><![CDATA[yes]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.startDate"><![CDATA[Start]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.title"><![CDATA[Title]]></item>
+		<item name="wcf.acp.jcoinsShop.membership.username"><![CDATA[User]]></item>
+		<item name="wcf.acp.jcoinsShop.setting"><![CDATA[Settings]]></item>
+		<item name="wcf.acp.jcoinsShop.setting.download"><![CDATA[Enter either the name of an already uploaded file or upload a new file.]]></item>
+		<item name="wcf.acp.jcoinsShop.transaction.time"><![CDATA[Time]]></item>
+		<item name="wcf.acp.jcoinsShop.transaction.username"><![CDATA[User]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.shopJCoins.category.add"><![CDATA[Add Category]]></item>
+		<item name="wcf.acp.menu.link.shopJCoins.category.list"><![CDATA[Shop Categories]]></item>
+		<item name="wcf.acp.menu.link.shopJCoins.item.add"><![CDATA[Add Product]]></item>
+		<item name="wcf.acp.menu.link.shopJCoins.item.list"><![CDATA[Shop Products]]></item>
+		<item name="wcf.acp.menu.link.shopJCoins.membership.list"><![CDATA[Shop Memberships]]></item>
+		<item name="wcf.acp.menu.link.shopJCoins.transaction.list"><![CDATA[Shop Sales]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.jcoins.shop"><![CDATA[JCoins Shop]]></item>
+		<item name="wcf.acp.option.jcoins_shop_activity"><![CDATA[Show Activities]]></item>
+		<item name="wcf.acp.option.jcoins_shop_description"><![CDATA[Text on Shop Start Page]]></item>
+		<item name="wcf.acp.option.jcoins_shop_description.description"><![CDATA[Adds a description of the Shop on its start page.]]></item>
+		<item name="wcf.acp.option.jcoins_shop_items_per_box"><![CDATA[Products in Box]]></item>
+		<item name="wcf.acp.option.jcoins_shop_items_per_page"><![CDATA[Products per Page]]></item>
+		
+		<item name="wcf.acp.option.jcoins_shop_sortField"><![CDATA[Sorting]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortField.changeTime"><![CDATA[Time]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortField.price"><![CDATA[Price]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortField.sold"><![CDATA[Sales]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortField.sortOrder"><![CDATA[Default]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortOrder"><![CDATA[Sort Order]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortOrder.asc"><![CDATA[ascending]]></item>
+		<item name="wcf.acp.option.jcoins_shop_sortOrder.desc"><![CDATA[descending]]></item>
+		
+		<item name="wcf.acp.option.jcoins_shop_terms_enable"><![CDATA[Users must accept Terms of Service prior to purchase]]></item>
+		<item name="wcf.acp.option.jcoins_shop_terms_url"><![CDATA[URL to Terms of Service]]></item>
+		<item name="wcf.acp.option.module_jcoins_shop"><![CDATA[Enable JCoins Shop]]></item>
+	</category>
+	
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.com.uz.jcoins.shop.stats"><![CDATA[Sales JCoins Shop]]></item>
+	</category>
+	
+	<category name="wcf.jcoins.shop">
+		<item name="wcf.jcoins.shop.button.buy"><![CDATA[Purchase]]></item>
+		<item name="wcf.jcoins.shop.buy.error.sender"><![CDATA[Error during purchase: no sender]]></item>
+		<item name="wcf.jcoins.shop.buy.error.textItem"><![CDATA[Error during purchase: no product left]]></item>
+		<item name="wcf.jcoins.shop.buy.error.trophy"><![CDATA[Error during purchase: trophy not available]]></item>
+		<item name="wcf.jcoins.shop.button.download"><![CDATA[Download]]></item>
+		<item name="wcf.jcoins.shop.button.extend"><![CDATA[Extend]]></item>
+		<item name="wcf.jcoins.shop.button.preview"><![CDATA[Description]]></item>
+		
+		<item name="wcf.jcoins.shop.categories"><![CDATA[Categories]]></item>
+		<item name="wcf.jcoins.shop.conversation.hallo"><![CDATA[Hallo {$username},]]></item>
+		<item name="wcf.jcoins.shop.conversation.download"><![CDATA[You may download the product in the {JCOINS_NAME} Shop at any time.]]></item>
+		<item name="wcf.jcoins.shop.conversation.handson"><![CDATA[The purchase of the poduct was recorded and must be proccessed manually. Please have a little patience. You will be notified when the proccessing is completed.]]></item>
+		<item name="wcf.jcoins.shop.conversation.item"><![CDATA[You have just purchased the product “{$shopItem->getSubject()}” for {$shopItem->getPrice()} {JCOINS_NAME}:<br>{$shopItem->getFormattedTeaser()}<br>]]></item>
+		<item name="wcf.jcoins.shop.conversation.membership.end"><![CDATA[With this product, you acquired a membership. This membership will end {$endDate|plainTime}.]]></item>
+		<item name="wcf.jcoins.shop.conversation.membership.extended"><![CDATA[Your membership, acquired with this product, was extended and will now end {$endDate|plainTime}.]]></item>
+		<item name="wcf.jcoins.shop.conversation.membership.warning.expires"><![CDATA[Your membership “{$shopItem->getSubject()}”, purchased in the {JCOINS_NAME} Shop, will end {$endDate|plainTime}.<br>Description:<br>{$shopItem->getFormattedTeaser()}]]></item>
+		<item name="wcf.jcoins.shop.conversation.membership.warning.subject"><![CDATA[Membership from {JCOINS_NAME} Shop expires]]></item>
+		<item name="wcf.jcoins.shop.conversation.subject"><![CDATA[Purchased product in {JCOINS_NAME} Shop]]></item>
+		<item name="wcf.jcoins.shop.conversation.textItem.text"><![CDATA[The purchased content is: {$text}]]></item>
+		<item name="wcf.jcoins.shop.dialog.buy"><![CDATA[Purchase Product]]></item>
+		<item name="wcf.jcoins.shop.dialog.preview"><![CDATA[Description]]></item>
+		<item name="wcf.jcoins.shop.displayOptions"><![CDATA[Display Options]]></item>
+		
+		<item name="wcf.jcoins.shop.product.bought"><![CDATA[You already have purchased this product.]]></item>
+		<item name="wcf.jcoins.shop.product.buyFor"><![CDATA[Purchase for]]></item>
+		<item name="wcf.jcoins.shop.product.expired"><![CDATA[Expired]]></item>
+		<item name="wcf.jcoins.shop.product.expires"><![CDATA[The product is available only a limited time. It expires in the stated period of time and can than no longer be purchased.]]></item>
+		<item name="wcf.jcoins.shop.product.limit"><![CDATA[The product is available only a limited number of times.]]></item>
+		<item name="wcf.jcoins.shop.product.limit.detail"><![CDATA[{@$left} piece{if @$left!=1}s{/if}]]></item>
+		<item name="wcf.jcoins.shop.product.limit.soldOut"><![CDATA[Sold out]]></item>
+		<item name="wcf.jcoins.shop.product.membership.extension"><![CDATA[Buying the product again will automatically extend your user group membership respectively.]]></item>
+		<item name="wcf.jcoins.shop.product.notice"><![CDATA[Notice]]></item>
+		<item name="wcf.jcoins.shop.product.offer.expires"><![CDATA[The offer ends on {@$shopItem->offerEnd|plainTime}.]]></item>
+		<item name="wcf.jcoins.shop.product.preview"><![CDATA[Description]]></item>
+		<item name="wcf.jcoins.shop.product.sold"><![CDATA[{@$shopItem->sold|shortUnit} {if $shopItem->sold == 1}sale{else}sales{/if}]]></item>
+		<item name="wcf.jcoins.shop.product.user.expired"><![CDATA[The membership ended:]]></item>
+		<item name="wcf.jcoins.shop.product.user.expires"><![CDATA[The membership ends:]]></item>
+		<item name="wcf.jcoins.shop.recentActivity.purchase"><![CDATA[Has purchased a product in the <a href="{link controller='JCoinsShop'}{/link}">Shop</a>.]]></item>
+		<item name="wcf.jcoins.shop.shop"><![CDATA[Shop]]></item>
+		<item name="wcf.jcoins.shop.shop.categorized"><![CDATA[Products in Category “{$category->getTitle()}”]]></item>
+		<item name="wcf.jcoins.shop.shop.product"><![CDATA[Product “{$shopItem->getSubject()|truncate:100}”]]></item>
+		<item name="wcf.jcoins.shop.sort"><![CDATA[Sortierung]]></item>
+		<item name="wcf.jcoins.shop.sortBy"><![CDATA[Sort Order]]></item>
+		<item name="wcf.jcoins.shop.sort.changeTime"><![CDATA[Time]]></item>
+		<item name="wcf.jcoins.shop.sort.price"><![CDATA[Price]]></item>
+		<item name="wcf.jcoins.shop.sort.sold"><![CDATA[Sales]]></item>
+		<item name="wcf.jcoins.shop.sort.sortOrder"><![CDATA[Default]]></item>
+		<item name="wcf.jcoins.shop.success"><![CDATA[The action was successfully executed.]]></item>
+		<item name="wcf.jcoins.shop.terms"><![CDATA[Terms of Service]]></item>
+		<item name="wcf.jcoins.shop.terms.confirm"><![CDATA[I agree to the <a href="{JCOINS_SHOP_TERMS_URL}">Terms of Service</a>]]></item>
+	</category>
+	
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.shop.statement.product"><![CDATA[Product purchased in the Shop]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.shop.statement.product"><![CDATA[You have purchased the product “{$statement->title}” in the <a href="{link controller='JCoinsShop'}{/link}">Shop</a>.]]></item>
+	</category>
+	
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.jCoinsProducts"><![CDATA[Purchased Shop Products]]></item>
+	</category>
+	
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.settings.jCoinsShop"><![CDATA[Purchased Shop Products]]></item>
+	</category>
+	
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.uz.jcoins.shop.recentActivityEvent.purchase"><![CDATA[Product]]></item>
+	</category>
+</language>

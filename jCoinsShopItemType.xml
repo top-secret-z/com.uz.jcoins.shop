@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
+	<import>
+		<jCoinsShopItem name="membership">
+			<typeID>1</typeID>
+			<sortOrder>3</sortOrder>
+		</jCoinsShopItem>
+		
+		<jCoinsShopItem name="download">
+			<typeID>2</typeID>
+			<sortOrder>1</sortOrder>
+		</jCoinsShopItem>
+		
+		<jCoinsShopItem name="handson">
+			<typeID>3</typeID>
+			<sortOrder>2</sortOrder>
+		</jCoinsShopItem>
+		
+		<jCoinsShopItem name="textItem">
+			<typeID>4</typeID>
+			<sortOrder>4</sortOrder>
+		</jCoinsShopItem>
+		
+		<jCoinsShopItem name="trophy">
+			<typeID>5</typeID>
+			<sortOrder>5</sortOrder>
+		</jCoinsShopItem>
+	</import>
+</data>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<categories>
+			<category name="user.jcoins.shop">
+				<parent>user.jcoins</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="module_jcoins_shop">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>1</showOrder>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="jcoins_shop_description">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>2</showOrder>
+				<optiontype>textI18n</optiontype>
+				<supporti18n>1</supporti18n>
+				<defaultvalue></defaultvalue>
+			</option>
+			
+			<option name="jcoins_shop_items_per_page">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>3</showOrder>
+				<optiontype>integer</optiontype>
+				<defaultvalue>6</defaultvalue>
+				<minvalue>2</minvalue>
+				<maxvalue>50</maxvalue>
+			</option>
+			
+			<option name="jcoins_shop_sortField">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>4</showOrder>
+				<optiontype>select</optiontype>
+				<selectoptions><![CDATA[sortOrder:wcf.acp.option.jcoins_shop_sortField.sortOrder
+changeTime:wcf.acp.option.jcoins_shop_sortField.changeTime
+price:wcf.acp.option.jcoins_shop_sortField.price
+sold:wcf.acp.option.jcoins_shop_sortField.sold]]></selectoptions>
+				<defaultvalue>sortOrder</defaultvalue>
+			</option>
+			
+			<option name="jcoins_shop_sortOrder">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>5</showOrder>
+				<optiontype>select</optiontype>
+				<selectoptions><![CDATA[DESC:wcf.acp.option.jcoins_shop_sortOrder.desc
+ASC:wcf.acp.option.jcoins_shop_sortOrder.asc]]></selectoptions>
+				<defaultvalue>DESC</defaultvalue>
+			</option>
+			
+			<option name="jcoins_shop_items_per_box">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>6</showOrder>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+				<minvalue>2</minvalue>
+				<maxvalue>15</maxvalue>
+			</option>
+			
+			<option name="jcoins_shop_terms_enable">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>7</showOrder>
+				<optiontype>boolean</optiontype>
+				<enableoptions>jcoins_shop_terms_url</enableoptions>
+			</option>
+			
+			<option name="jcoins_shop_terms_url">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>8</showOrder>
+				<optiontype>text</optiontype>
+			</option>
+			
+			<option name="jcoins_shop_activity">
+				<categoryname>user.jcoins.shop</categoryname>
+				<showOrder>9</showOrder>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>
