@@ -1,186 +1,186 @@
 .jcoinsShopItemList {
-	margin-left: -10px;
-	margin-right: -10px;
-	
-	@include screen-md-up {
-		display: flex;
-		flex-wrap: wrap;
-		margin-bottom: -20px;
-	}
-	
-	> li {
-		overflow: hidden;
-		padding-left: 10px;
-		padding-right: 10px;
-		
-		@include screen-sm-down {
-			&:not(:last-child) {
-				margin-bottom: 20px;
-			}
-		}
-		
-		@include screen-md-up {
-			flex: 0 0 50%;
-			margin-bottom: 20px;
-			max-width: 50%;
-		}
-	}
-	
-	.jcoinsShopItemDiv {
-		border: 1px solid $wcfContentBorderInner;
-		
-		> .box128 {
-			color: inherit;
-			padding: 20px;
-			
-			.jcoinsShopItemImage img {
-					opacity: 0.85;
-				}
-			
-			&:hover {
-				color: inherit;
-				
-				.jcoinsShopItemImage img {
-					opacity: 1;
-				}
-				
-				.jcoinsShopItemSubject {
-					color: $wcfContentLinkActive;
-				}
-			}	
-		}
-		
-		@include screen-xs {
-			> .box128 {
-				padding: 10px;
-			}
-			
-			.jcoinsShopItemImage {
-				margin-right: 10px;
-				
-				img {
-					height: 64px !important;
-					width: 64px !important;
-				}
-			}
-		}
-	}
-	
-	.jcoinsShopItemFooter {
-		background-color: $wcfTabularBoxBackgroundActive;
-		border-top: 1px solid $wcfContentBorderInner;
-		
-		&:hover {
-			.jcoinsShopItemFooterOffer {
-				display: block;
-				color: $wcfContentLink;
-				
-				+ .jcoinsShopItemStatistics {
-					display: none;
-				}
-			}
-		}
-	}
-	
-	.jcoinsShopItemSales {
-		padding: 10px;
-		justify-content: center;
-		
-		> li {
-			&:not(:last-child) {
-				margin-right: 10px;
-			}
-			
-			.icon {
-				color: $wcfContentDimmedText;
-			}
-		}
-	}
+    margin-left: -10px;
+    margin-right: -10px;
+
+    @include screen-md-up {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -20px;
+    }
+
+    > li {
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        @include screen-sm-down {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        @include screen-md-up {
+            flex: 0 0 50%;
+            margin-bottom: 20px;
+            max-width: 50%;
+        }
+    }
+
+    .jcoinsShopItemDiv {
+        border: 1px solid $wcfContentBorderInner;
+
+        > .box128 {
+            color: inherit;
+            padding: 20px;
+
+            .jcoinsShopItemImage img {
+                    opacity: 0.85;
+                }
+
+            &:hover {
+                color: inherit;
+
+                .jcoinsShopItemImage img {
+                    opacity: 1;
+                }
+
+                .jcoinsShopItemSubject {
+                    color: $wcfContentLinkActive;
+                }
+            }    
+        }
+
+        @include screen-xs {
+            > .box128 {
+                padding: 10px;
+            }
+
+            .jcoinsShopItemImage {
+                margin-right: 10px;
+
+                img {
+                    height: 64px !important;
+                    width: 64px !important;
+                }
+            }
+        }
+    }
+
+    .jcoinsShopItemFooter {
+        background-color: $wcfTabularBoxBackgroundActive;
+        border-top: 1px solid $wcfContentBorderInner;
+
+        &:hover {
+            .jcoinsShopItemFooterOffer {
+                display: block;
+                color: $wcfContentLink;
+
+                + .jcoinsShopItemStatistics {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .jcoinsShopItemSales {
+        padding: 10px;
+        justify-content: center;
+
+        > li {
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            .icon {
+                color: $wcfContentDimmedText;
+            }
+        }
+    }
 }
 
 .jcoinsShopItemSubject {
-	.badge {
-		opacity: 0.80;
-	}
+    .badge {
+        opacity: 0.80;
+    }
 }
 
 .jcoinsShopItemInfo {
-	@include wcfFontSmall;
+    @include wcfFontSmall;
 }
 
 .jcoinsShopItemDiv {
-	.jcoinsShopItemPriceInfo {
-		text-align: right;
-		
-		.icon {
-			position: relative;
-			top: -2px;
-		}
-	}
-	
-	.jcoinsShopItemPrice {
-		color: $wcfContentLink;
-		@include wcfFontHeadline;
-		
-		&.jcoinsShopItemPriceOffer {
-			color: $wcfStatusSuccessText;
-			text-decoration: line-through;
-		}
-	}
+    .jcoinsShopItemPriceInfo {
+        text-align: right;
+
+        .icon {
+            position: relative;
+            top: -2px;
+        }
+    }
+
+    .jcoinsShopItemPrice {
+        color: $wcfContentLink;
+        @include wcfFontHeadline;
+
+        &.jcoinsShopItemPriceOffer {
+            color: $wcfStatusSuccessText;
+            text-decoration: line-through;
+        }
+    }
 }
 
 
 .jcoinsShopDialogItemPrice {
-	color: $wcfContentLink;
-	
-	@include wcfFontHeadline;
+    color: $wcfContentLink;
+
+    @include wcfFontHeadline;
 }
 
 .jcoinsShopItemDisabled {
-	position: relative;
-	
-	&::before {
-		display: block;
-		font-family: FontAwesome;
-		position: absolute;
-		
-		@include screen-md-up {
-			font-size: 42px;
-		}
-		
-		@include screen-sm-down {
-			font-size: 28px;
-		}
-	}
+    position: relative;
+
+    &::before {
+        display: block;
+        font-family: FontAwesome;
+        position: absolute;
+
+        @include screen-md-up {
+            font-size: 42px;
+        }
+
+        @include screen-sm-down {
+            font-size: 28px;
+        }
+    }
 }
 
 .jcoinsShopItemDisabled::before {
-	color: rgb(0, 140, 0);
-	content: $fa-var-eye-slash;
-	
-	@include screen-md-up {
-		left: 13px;
-		top: -2px;
-	}
-	
-	@include screen-sm-down {
-		left: 3px;
-		top: -4px;
-	}
+    color: rgb(0, 140, 0);
+    content: $fa-var-eye-slash;
+
+    @include screen-md-up {
+        left: 13px;
+        top: -2px;
+    }
+
+    @include screen-sm-down {
+        left: 3px;
+        top: -4px;
+    }
 }
 
 .jcoinsShopBoxImage {
-	margin-right: 10px;
-	img {
-		height: 32px !important;
-		width: 32px !important;
-	}
+    margin-right: 10px;
+    img {
+        height: 32px !important;
+        width: 32px !important;
+    }
 }
 
 .jcoinsShopBoxImage64 {
-	margin-right: 10px;
-	img {
-		height: 64px !important;
-		width: 64px !important;
-	}
+    margin-right: 10px;
+    img {
+        height: 64px !important;
+        width: 64px !important;
+    }
 }
